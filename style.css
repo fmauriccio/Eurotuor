@@ -1,0 +1,89 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a {
+    color: white; 
+    text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+h2 {
+    text-align: center; /* Centraliza o texto */
+    background-color: #ccc; /* Fundo cinza */
+    padding: 10px 0; /* Adiciona espaçamento interno */
+    margin: 0px, 15px; /* Remove margens */
+    width: 100%; /* Faz o fundo cinza se estender de uma ponta a outra */
+}
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+img {
+    display: block; /* Para garantir que as margens automáticas funcionem */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 500px; /* Defina a largura desejada */
+    height: 350px; /* Defina a altura desejada */
+    object-fit: cover; /* Garante que a imagem cubra a área especificada */
+}
+.pontos-turisticos {
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    padding: 20px;
+    margin-bottom: 40px; /* Espaçamento inferior */
+}
